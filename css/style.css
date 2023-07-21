@@ -1,0 +1,203 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+
+/* bg-image1 strt */
+.nevbar{
+    background-image: url(../img/bg\ image2.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* bg-image1 end*/
+
+ /* nev bar strt */
+
+ .nevbar h1 {
+   font-size: 50px;
+   font-weight: 900;
+ }
+ 
+ /* nev end  */
+
+ /* horizontal line strt */
+ hr{
+  width: 48px;
+  color: rgb(255, 192, 1);
+  opacity: 1;
+  border-width: 2px;
+}
+ /* horizontal line end */
+
+ /* work from home section strt  */
+ .work-home p{
+  font-size: 12px;
+  text-align: justify;
+ }
+.btn-underline {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .btn-underline::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background-color: rgb(255, 192, 1);
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-underline:hover::before {
+    visibility: visible;
+    background-color: gray;
+  }
+
+   /* work from home section end  */
+
+   /* FEATURED-SETUP-01 strt  */
+   .FEATURED-SETUP-01 h2{
+    font-size: 30px;
+    font-weight: 900;
+   }
+   .FEATURED-SETUP-01 p{
+    font-size: 12px;
+    text-align: justify;
+   }
+   /* FEATURED-SETUP-01 end  */
+
+   /* card section strt */
+   .card-section p{
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+   }
+   .card1:hover .add-to-cart {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .add-to-cart {
+    position: absolute;
+    right: 0px;
+    left: 150px;
+    top: 0px;
+    padding: .5em 1em; 
+    transform: translateX(1px);
+    transition: .5s ease;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    opacity: 0;
+    background: transparent;
+  }
+
+  .card1:hover .quick-view{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .quick-view {
+    position: absolute;
+    right: 0px;
+    left: 155px;
+    top: 30px;
+    padding: .5em 1em; 
+    transform: translateX(1px);
+    transition: .5s ease;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    opacity: 0;
+    background: transparent;
+  }
+  
+   /* card section end */
+
+   /* bg custom setup strt */
+   .custom-setup{
+    background-image: url(../img/bg\ custom\ setup\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  } 
+
+   /* bg custom setup end */
+
+   /*-- popup --*/
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 0ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+    background: #fff;
+    border-radius: 5px;
+    max-width: 700px;
+    max-height: 400px;
+    position: relative;
+    margin: 5rem auto;
+	padding: 3em 1em;
+}
+.popup p{
+	font-size: 12px;
+	color: #666;
+	letter-spacing: .5px;
+	line-height: 20px;
+}
+.popup .close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    transition: all 200ms;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+.popup h2 {
+  margin-top: 0;
+  color: #fff;
+
+}
+.popup .close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.popup .close:hover {
+  color: #30c39e;
+}
+
+/*-- //popup --*/
+
+/* img zoom strt  */
+
+/* img zoom end */
+
+
+
+ 

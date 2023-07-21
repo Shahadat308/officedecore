@@ -1,0 +1,97 @@
+@import url(bootstrap.min.css);
+
+
+.nevbar{
+    background-image: url(../img/furniture-store-about-page-header-img-bg.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+    width: 60px;
+    color: rgb(207, 187, 4);
+    opacity: 1;
+    border-width: 1px;
+}
+/* .video{
+    width: 100px;
+    height: 100px;
+} */
+
+.pharetra{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.custom-setup{
+    background-image: url(../img/wfh-furniture-store-cta-img-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+/*-- popup --*/
+
+.overlay {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+      background: #fff;
+      border-radius: 5px;
+      max-width: 700px;
+      max-height: 400px;
+      position: relative;
+      margin: 5rem auto;
+      padding: 3em 1em;
+  }
+  .popup p{
+      font-size: 12px;
+      color: #666;
+      letter-spacing: .5px;
+      line-height: 20px;
+  }
+  .popup .close {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      transition: all 200ms;
+      font-size: 30px;
+      text-decoration: none;
+      color: #000;
+  }
+  .popup h2 {
+    margin-top: 0;
+    color: #fff;
+  
+  }
+  .popup .close {
+      position: absolute;
+      top: 5px;
+      right: 15px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #000;
+  }
+  .popup .close:hover {
+    color: #30c39e;
+  }
+  
+  /*-- //popup --*/
